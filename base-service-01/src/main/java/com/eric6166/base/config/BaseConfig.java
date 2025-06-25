@@ -1,4 +1,4 @@
-package com.eric6166.starter.config;
+package com.eric6166.base.config;
 
 import org.springframework.context.MessageSource;
 import org.springframework.context.annotation.Bean;
@@ -6,8 +6,6 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.context.support.ReloadableResourceBundleMessageSource;
 
 import java.nio.charset.StandardCharsets;
-import java.time.ZoneOffset;
-import java.util.TimeZone;
 
 @Configuration
 public class BaseConfig {
@@ -20,12 +18,6 @@ public class BaseConfig {
         messageSource.setBasenames("classpath:/messages/messages");
         messageSource.setDefaultEncoding(StandardCharsets.UTF_8.name());
         return messageSource;
-    }
-
-    //time zone config
-    @Bean
-    public void setTimeZone() {
-        TimeZone.setDefault(TimeZone.getTimeZone(ZoneOffset.UTC));
     }
 
 }

@@ -1,4 +1,4 @@
-package com.eric6166.starter.config;
+package com.eric6166.base.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

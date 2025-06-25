@@ -1,10 +1,10 @@
-package com.eric6166.starter;
+package com.eric6166.base;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class StarterServiceApplicationTests {
+class BaseServiceApplicationTests {
 
     @Test
     void contextLoads() {
