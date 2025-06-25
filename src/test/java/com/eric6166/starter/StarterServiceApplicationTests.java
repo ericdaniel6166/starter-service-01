@@ -8,6 +8,7 @@ class StarterServiceApplicationTests {
 
     @Test
     void contextLoads() {
+        // default implementation ignored
     }
 
 }
